@@ -1,0 +1,11 @@
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
+
+html {
+  height: 100vh;
+}
+#app {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
