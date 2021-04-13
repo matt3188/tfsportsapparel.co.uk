@@ -1,3 +1,6 @@
+// @import '~bulma/sass/utilities/initial-variables';
+// @import '~bulma/sass/utilities/functions';
+// @import '~bulma/sass/utilities/derived-variables';
 @import '~bulma';
 @import '~buefy/src/scss/buefy';
 
@@ -5,7 +8,12 @@ html {
   height: 100vh;
 }
 #app {
-  position: relative;
-  overflow: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
   min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
 }
